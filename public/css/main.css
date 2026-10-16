@@ -1,0 +1,38 @@
+:root {
+    color-scheme: light dark;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #FAFAFA;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #0b051a;
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.gap-2 {
+    gap: 2rem;
+}
+
+.px-8 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
